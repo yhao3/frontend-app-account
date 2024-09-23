@@ -12,6 +12,7 @@ import itMessages from './messages/it.json';
 import ptMessages from './messages/pt.json';
 import ruMessages from './messages/ru.json';
 import ukMessages from './messages/uk.json';
+import zhtwMessages from './messages/zh_TW.json';
 import zhcnMessages from './messages/zh_CN.json';
 import dedeCAMessages from './messages/de_DE.json';
 import ititCAMessages from './messages/it_IT.json';
@@ -23,6 +24,7 @@ const appMessages = {
   'es-419': es419Messages,
   'fa-ir': faIRMessages,
   fr: frMessages,
+  'zh-tw': zhtwMessages,
   'zh-cn': zhcnMessages,
   pt: ptMessages,
   it: itMessages,

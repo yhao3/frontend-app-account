@@ -70,6 +70,11 @@ const siteLanguageList = [
     released: false,
   },
   {
+    code: 'zh-tw',
+    name: '中文 (繁體)',
+    released: true,
+  },
+  {
     code: 'zh-cn',
     name: '中文 (简体)',
     released: true,
