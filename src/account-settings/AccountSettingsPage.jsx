@@ -608,7 +608,7 @@ class AccountSettingsPage extends React.Component {
             {...editableFieldProps}
           />
           {this.renderSecondaryEmailField(editableFieldProps)}
-          <ResetPassword email={this.props.formValues.email} />
+          {/* <ResetPassword email={this.props.formValues.email} /> */}
           {(!getConfig().ENABLE_COPPA_COMPLIANCE)
             && (
             <EditableSelectField
