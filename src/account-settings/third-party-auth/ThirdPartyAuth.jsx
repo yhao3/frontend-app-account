@@ -59,7 +59,7 @@ class ThirdPartyAuth extends Component {
           </Alert>
         ) : null}
 
-        <StatefulButton
+        {/* <StatefulButton
           variant="link"
           state={this.props.disconnectionStatuses[id]}
           labels={{
@@ -76,7 +76,7 @@ class ThirdPartyAuth extends Component {
           disabledStates={[]}
           data-disconnect-url={url}
           data-provider-id={id}
-        />
+        /> */}
       </>
     );
   }
